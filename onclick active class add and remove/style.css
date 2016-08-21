@@ -1,0 +1,28 @@
+body 
+{
+margin: 0; 
+padding: 0; 
+font-size: 100%; 
+font-family: Arial, Helvetica, sans-serif;
+}
+.menu ul{}
+.menu ul li {}
+.navbar-inverse.menu ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+	background:transparent;
+}
+.navbar-inverse.menu ul li a:hover, .navbar-inverse.menu ul li a.active, .navbar-inverse.menu ul li a.active:hover {
+
+	background: rgba(183, 51, 106, 0.38);
+}
+.navbar-inverse {
+    border-radius: 0;
+}
+ul.wooc_sclist li a {
+  color: green;
+}
+ul.wooc_sclist li a:hover, ul li a.active, ul li a.active:hover {
+  color:red;
+}
