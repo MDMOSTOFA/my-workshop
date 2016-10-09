@@ -21,3 +21,23 @@ function setActive() {
 window.onload = setActive;
 
 */
+
+
+
+/***
+function setActive() {
+   
+    $('#nav').find('a').each(function () {
+        //console.log(document.location.href)
+        if (document.location.href == "http://localhost:14040" + $(this).attr('href')) {
+            $(this).parents("ul").removeClass("hidden-ul");
+            $(this).parents().addClass("active");
+
+        }
+    });
+
+ 
+}
+window.onload = setActive;
+
+***/
